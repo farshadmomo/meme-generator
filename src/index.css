@@ -31,3 +31,41 @@
     font-weight: 500;
     letter-spacing: 1.5px;
 }
+.generatorForm{
+    padding: 36px;
+}
+.generatorForm>form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+.generatorForm>form>input {
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-indent: 20px;
+}
+.generatorForm>form>button{
+    grid-column: 1 / -1;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #711F8D 1.14%, #A818DA 100%);
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.generatorForm>form>button>img{
+    scale: 0.5;
+}
