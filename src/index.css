@@ -69,3 +69,11 @@
 .generatorForm>div>button>img{
     scale: 0.5;
 }
+.generatorForm {
+    display: flex;
+    flex-direction:column ;
+    gap: 20px;
+}
+.memeImages {
+    max-width: 100%;
+}
